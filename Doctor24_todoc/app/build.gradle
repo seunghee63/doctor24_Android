@@ -123,4 +123,12 @@ dependencies {
     classpath 'androidx.support.design.widget.AppBarLayout$ScrollingViewBehavior'
     classpath 'androidx.support.design.widget.BottomSheetBehavior'*/
 
+    //Room
+    implementation "androidx.room:room-runtime:2.2.5"
+    testImplementation "androidx.room:room-testing:2.2.5"
+    kapt "androidx.room:room-compiler:2.2.5"
+    annotationProcessor "androidx.room:room-compiler:2.2.5"
+    implementation "androidx.room:room-rxjava2:2.2.5"
+    implementation "androidx.room:room-guava:2.2.5"
+
 }
